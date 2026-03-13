@@ -3,11 +3,11 @@
 
 | Проект    | Размер/Язык          | Generic инструменты       | Проактивность          | Многошаговые агенты          | Адаптеры (web/Telegram/Slack)       | GitHub/Ссылка                     |
 | --------- | -------------------- | ------------------------- | ---------------------- | ---------------------------- | ----------------------------------- | --------------------------------- |
-| Nanobot   | ~4k строк Python     | Да, простые скрипты/tools | По триггерам/schedules | Базовый multi-step           | Web API, легко добавить Telegram    | [github.com/HKUDS/nanobot]github​ |
+| Nanobot   | ~4k строк Python     | Да, простые скрипты/tools | По триггерам/schedules | Базовый multi-step           | Web API, легко добавить Telegram    | [github.com/HKUDS/nanobot](github)​ |
 | ZeroClaw  | 3.4MB Rust binary    | Да, JSON/MD configs       | Триггеры, schedules    | Stateful с памятью SQLite    | Telegram встроен, Slack/web via API | [zeroclaw.bot](zeroclaw)          |
-| NanoClaw  | 15 TS файлов, Docker | Tools via SDK             | По событиям            | Agent swarms/multi-agent     | Telegram/Slack/Discord/WhatsApp     | [nanoclaw.dev]virtuslab+1         |
+| NanoClaw  | 15 TS файлов, Docker | Tools via SDK             | По событиям            | Agent swarms/multi-agent     | Telegram/Slack/Discord/WhatsApp     | [nanoclaw.dev](virtuslab)         |
 | LangGraph | Лёгкий Python lib    | Dynamic tools/prompts     | Триггеры в graph       | Графовые workflows, stateful | FastAPI web, Telegram bots          | LangChain docs datacamp​          |
-| ReefAgent | Минимальный, Docker  | Простые adapters          | Автономные триггеры    | Три-layer memory, multi-step | Telegram/Slack/web gateway          | [reefagent.ai]reefagent​          |
+| ReefAgent | Минимальный, Docker  | Простые adapters          | Автономные триггеры    | Три-layer memory, multi-step | Telegram/Slack/web gateway          | [reefagent.ai](reefagent​)         |
 
 
 - Nanobot/ZeroClaw - максимум простоты
